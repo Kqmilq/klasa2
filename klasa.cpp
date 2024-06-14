@@ -3,15 +3,13 @@
 #include "math.h"
 
 using namespace std;
-//" \u200B\u200B
+
 int Triangle::m_numberFigury = 0;
 Triangle ::Triangle() {
-    m_name = "???";
     s1 = 0;
     s2 = 0;
 }
 Triangle::Triangle(const std::string &name, double a, double b, double c) {
-    m_name = name;
     s1 = a;
     s2 = b;
     s3 = c;
@@ -51,7 +49,7 @@ void triangle (double *a,double *b,double *c ){
     cout << "Drugi bok trojkatu =  ";
     cin >> * b;
     cout << endl;
-    cout << "STrzeci bok tr =  ";
+    cout << "Trzeci bok trojkatu =  ";
     cin >> * c;
     cout << endl;
 }

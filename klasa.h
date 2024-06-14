@@ -5,7 +5,6 @@
 class Triangle{
 private:
     static int m_numberFigury;
-    std::string m_name;
     double s1;
     double s2;
     double s3;
@@ -17,9 +16,8 @@ public:
     void showSides() const;
     double area() const;
     double perimeter() const;
-    const Triangle& bigger(const Triangle& p) const;
 };
 
 void triangle (double *a,double *b,double *c);
 
-#endif //UNTITLED10_KLASA_H
+#endif
