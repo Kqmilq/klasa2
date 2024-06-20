@@ -25,7 +25,7 @@ int main() {
             cout << endl;
             Triangle trojkat1(text ,a,b,c);
             Triangle trojkat2(textt ,a,b,c);
-            if(a!= 0 && b!= 0 && c!= 0){
+            if(a>= 0 && b>= 0 && c>= 0){
                 cout<<"Wymiary "<< Triangle::numberFigury()<< " Trojkata "<< endl;
                 trojkat1.showSides();
                 cout << "Obwod = " << trojkat1.perimeter() << endl;
@@ -44,7 +44,7 @@ int main() {
 
             }
             else{
-                cout<<"Bok nie moze byc 0"<<endl;
+                cout<<"Bok nie moze byc ujemny i nie moze byc 0."<<endl;
             }
         }
 
